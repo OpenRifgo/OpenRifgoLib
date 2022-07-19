@@ -1,0 +1,26 @@
+{
+  "name": "openrifgo-tz-humanize",
+  "version": "1.0.0",
+  "description": "OpenRifgo: simplifies timezone naming for human readability",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "@types/node": "^15.6.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenRifgo/OpenRifgoLib",
+    "directory": "tz-humanize"
+  },
+  "author": "Roman Exemplarov, RIFGO",
+  "license": "Apache-2.0"
+}
