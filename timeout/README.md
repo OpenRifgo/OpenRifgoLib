@@ -1,3 +1,18 @@
+
+# OpenRifgo Timeout
+
+Simple Timeout function to be used with await syntax.
+
+```typescript
+import timeout from 'openrifgo-timeout'
+
+// sleet for 1 second
+const ms = 1000
+await timeout(ms)
+```
+
+Extracted from **[OpenRifgo API](https://github.com/OpenRifgo/RifgoApi)**
+
 # RIFGO - open source platform for educational creators
 
 Hi everyone!
@@ -62,22 +77,3 @@ We were unable to attract a new round because of a lack of traction and a change
 [Angelsdeck](https://www.crunchbase.com/organization/angelsdeck) - angel investor club
 
 RIFGO team
-
-# RIFGO - Backend / API
-
-Built with [Fastify](https://www.fastify.io/) and [TypeORM](https://typeorm.io/)
-
-## Install the dependencies
-```bash
-yarn
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-yarn run dev
-```
-
-### Run the app in production mode
-```bash
-yarn run start
-```
