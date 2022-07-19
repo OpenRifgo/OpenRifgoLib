@@ -1,5 +1,5 @@
 
-# OpenRifgo Timeout
+# OpenRifgo TZ Humanize
 
 Simplifies timezone naming for human readability
 
