@@ -1,1 +1,1 @@
-export declare function timeout(ms: number): Promise<unknown>;
+export default function timeout(ms: number): Promise<unknown>;

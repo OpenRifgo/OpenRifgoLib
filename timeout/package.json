@@ -1,6 +1,6 @@
 {
   "name": "openrifgo-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenRifgo: simple Timeout function to be used with await syntax",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
@@ -15,6 +15,11 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenRifgo/OpenRifgoLib",
+    "directory": "timeout"
   },
   "author": "Roman Exemplarov, RIFGO",
   "license": "Apache-2.0"
