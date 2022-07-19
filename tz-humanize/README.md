@@ -4,7 +4,7 @@
 Simplifies timezone naming for human readability
 
 ```typescript
-import humanizeTimezone from 'openrifgo-tz-humanize'
+import {humanizeTimezone} from 'openrifgo-tz-humanize'
 
 /*
 Handles American timezones like this:
